@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "date": "2025-08-02T21:06:50.973581",
+    "amount": 200.0,
+    "category": "freelance",
+    "description": "web",
+    "type": "income"
+  },
+  {
+    "id": 2,
+    "date": "2025-08-02T21:19:58.375741",
+    "amount": 500.0,
+    "category": "clothes",
+    "description": "christmass",
+    "type": "expense"
+  },
+  {
+    "id": 3,
+    "date": "2025-08-02T21:21:04.089616",
+    "amount": 100.0,
+    "category": "work",
+    "description": "salaryinc",
+    "type": "income"
+  },
+  {
+    "id": 4,
+    "date": "2025-08-02T21:21:38.960755",
+    "amount": 50.0,
+    "category": "food",
+    "description": "bday",
+    "type": "expense"
+  }
+]
