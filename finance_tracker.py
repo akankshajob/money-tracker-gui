@@ -288,15 +288,15 @@ class ModernFinanceTracker:
             self.transactions.append(transaction)
             self.save_data()
             
-            # Clear inputs
+            
             self.amount_entry.delete(0, 'end')
             self.category_entry.delete(0, 'end')
             self.description_entry.delete(0, 'end')
             
-            # Update dashboard
+            
             self.update_dashboard()
             
-            # Show success message
+            
             messagebox.showinfo("Success", f"✅ {transaction_type.title()} added successfully!")
             
         except ValueError:
@@ -304,20 +304,20 @@ class ModernFinanceTracker:
     
     def update_dashboard(self):
         """Update all dashboard elements."""
-        # Calculate totals
+        
         income = sum(t["amount"] for t in self.transactions if t["type"] == "income")
         expenses = sum(t["amount"] for t in self.transactions if t["type"] == "expense")
         balance = income - expenses
         
-        # Update stat cards
+        
         self.balance_card.config(text=f"${balance:.2f}")
         self.income_card.config(text=f"${income:.2f}")
         self.expense_card.config(text=f"${expenses:.2f}")
         
-        # Update chart
+        
         self.update_chart()
         
-        # Update recent transactions
+        
         self.update_recent_transactions()
     
     def update_chart(self):
@@ -331,22 +331,22 @@ class ModernFinanceTracker:
         self.ax.set_facecolor(self.colors['bg_secondary'])
         
         if expense_categories:
-            # Create a modern donut chart
+            
             categories = list(expense_categories.keys())
             values = list(expense_categories.values())
             
-            # Color palette
+            
             colors = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#FFEAA7', '#DDA0DD', '#98D8C8', '#F7DC6F']
             
             wedges, texts, autotexts = self.ax.pie(values, labels=categories, autopct='%1.1f%%',
                                                   colors=colors[:len(categories)], startangle=90,
                                                   pctdistance=0.85)
             
-            # Create donut effect
+            
             centre_circle = plt.Circle((0,0), 0.70, fc=self.colors['bg_secondary'])
             self.ax.add_artist(centre_circle)
             
-            # Style the text
+            
             for text in texts:
                 text.set_color(self.colors['text_primary'])
                 text.set_fontsize(10)
