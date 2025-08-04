@@ -31,7 +31,7 @@ That's it! No pip installs needed.
 
 ## 📱 Screenshots
 
-*Add some screenshots of your app here when you have them*
+
 
 ## 🎯 How to Use
 
