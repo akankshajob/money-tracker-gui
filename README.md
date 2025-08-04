@@ -29,7 +29,6 @@ python finance_tracker.py
 
 That's it! No pip installs needed.
 
-## 📱 Screenshots
 
 
 
