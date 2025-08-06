@@ -1,10 +1,10 @@
-# 💰 Money Tracker GUI
+#  Money Tracker GUI
 
 A simple and modern personal finance tracker built with Python's tkinter. Track your income and expenses with a clean, dark-themed interface.
 
 
 
-## ✨ Features
+##  Features
 
 - 🎨 Modern dark theme interface
 - 💳 Real-time balance tracking
@@ -14,7 +14,7 @@ A simple and modern personal finance tracker built with Python's tkinter. Track 
 - 💾 Automatic data persistence (JSON)
 - 🚀 Zero external dependencies - uses only built-in Python libraries
 
-## 🚀 Quick Start
+##  Quick Start
 
 1. Clone the repository:
 ```bash
@@ -32,14 +32,14 @@ That's it! No pip installs needed.
 
 
 
-## 🎯 How to Use
+##  How to Use
 
 1. **Add Income**: Select "Income" and enter amount, category (salary, freelance), and description
 2. **Add Expenses**: Select "Expense" and categorize your spending (food, transport, etc.)
 3. **View Dashboard**: See your balance, total income/expenses, and spending breakdown
 4. **Track History**: Recent transactions are displayed in the sidebar
 
-## 📊 Example Categories
+##  Example Categories
 
 **Income**: salary, freelance, investments, gifts
 **Expenses**: food, transport, entertainment, utilities, shopping
@@ -51,7 +51,7 @@ That's it! No pip installs needed.
 - JSON for data storage
 
 
-## 🤝 Contributing
+##  Contributing
 
 This is a hobby project, but feel free to fork it and make it your own! Some ideas for improvements:
 
