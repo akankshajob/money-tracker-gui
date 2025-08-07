@@ -5,7 +5,7 @@ A simple and modern personal finance tracker built with Python's tkinter. Track 
 
 
 ##  Features
-
+  
 - 🎨 Modern dark theme interface
 - 💳 Real-time balance tracking
 - 📊 Visual spending breakdown with custom charts
@@ -14,7 +14,8 @@ A simple and modern personal finance tracker built with Python's tkinter. Track 
 - 💾 Automatic data persistence (JSON)
 - 🚀 Zero external dependencies - uses only built-in Python libraries
 
-##  Quick Start
+##  Quick Start 
+
 
 1. Clone the repository:
 ```bash
